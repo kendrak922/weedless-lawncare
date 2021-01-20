@@ -1,14 +1,11 @@
 import logo from './logo.svg';
-import './App.scss';
+import './global.scss';
+import Hero from './Components/Hero/hero'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <Hero />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +14,6 @@ function App() {
         >
           Learn React
         </a>
-      </header>
     </div>
   );
 }
