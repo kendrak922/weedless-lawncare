@@ -4,6 +4,8 @@ $white: #F0F3F5;
 $black: #000000;
 $dark-green: #345511;
 
-.App{
-background-color: $white;
-}
+* { 
+    padding: 0; 
+    box-sizing: border-box; 
+    margin:0;
+  }
