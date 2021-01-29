@@ -3,6 +3,12 @@ $gold: #B68F40;
 $white: #F0F3F5;
 $black: #000000;
 $dark-green: #345511;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald&display=swap');
+
+$primary-font: 'Merriweather', serif;
+$secondary-font: 'Oswald', sans-serif;
+
+
 
 * { 
     padding: 0; 
